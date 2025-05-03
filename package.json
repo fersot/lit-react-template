@@ -1,23 +1,35 @@
 {
-  "name": "lit-web-component",
-  "version": "1.0.1",
+  "name": "lit-react-js-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "start": "vite dev --host",
-    "dev": "vite dev --host",
+    "dev": "vite",
     "build": "vite build",
-    "lint": "eslint src --fix"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.4.12",
-    "lit": "^2.4.0",
-    "postcss": "^8.4.18",
-    "sass": "^1.55.0",
-    "tailwindcss": "^3.2.0",
-    "typescript": "^4.8.4",
-    "vite": "^3.1.8"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "@tailwindcss/vite": "^4.1.5",
+    "lit": "^3.2.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "@tailwindcss/postcss": "^4.1.5",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.22.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^16.0.0",
+    "postcss": "^8.5.3",
+    "postcss-lit": "^1.2.0",
+    "stylelint": "^16.19.1",
+    "stylelint-config-standard": "^38.0.0",
+    "tailwindcss": "^3.4.17",
+    "vite": "^6.3.1"
   }
 }
