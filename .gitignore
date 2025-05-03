@@ -1,5 +1,6 @@
-node_modules
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
 dist
-.env
-yarn.lock
-package-lock.json
+node_modules

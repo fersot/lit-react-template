@@ -1,7 +1,7 @@
-export default {
-    content: ['./index.html', './src/**/*.{js,jsx}'],  // Asegúrate que las rutas son correctas
-    theme: {
-        extend: {},
-    },
-    plugins: [],
+module.exports = {
+  content: ["src/**/*.{ts,tsx,html,css,scss}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
 };

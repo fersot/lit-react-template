@@ -1,26 +1,23 @@
 {
-  "name": "test-lit",
-  "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
+  "name": "lit-web-component",
+  "version": "1.0.1",
   "scripts": {
-    "dev": "npx vite --open",
-    "build": "npx vite build"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "@tailwindcss/vite": "^4.1.5",
-    "lit": "^3.3.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "tailwindcss": "^4.1.5",
-    "vite-plugin-singlefile": "^2.2.0"
+    "start": "vite dev --host",
+    "dev": "vite dev --host",
+    "build": "vite build",
+    "lint": "eslint src --fix"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.4.1",
-    "vite": "^6.3.4"
+    "autoprefixer": "^10.4.12",
+    "lit": "^2.4.0",
+    "postcss": "^8.4.18",
+    "sass": "^1.55.0",
+    "tailwindcss": "^3.2.0",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.8"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   }
 }
