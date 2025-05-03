@@ -12,6 +12,19 @@ export default defineConfig({
       plugins: [tailwindcss()],
     },
   },
+  build: {
+    target: 'esnext',
+    assetsInlineLimit: 100000000,
+    rollupOptions: {
+      input: 'src/main.js',
+      output: {
+        entryFileNames: 'main.bundle.js', // <- nombre deseado
+        format: 'iife',
+      },
+    },
+    outDir: 'dist',
+    emptyOutDir: true,
+  },
   server: {
     port: 3000,
     open: true,
